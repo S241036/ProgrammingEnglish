@@ -1,18 +1,11 @@
-const wordList = [ 
-
-{ japanese: "関数型プログラミングがソフトウェア開発者の間で注目されている。", english: "Functional programming has been gaining popularity among software developers." }, 
-
-{ japanese: "走る", english: "run" }, 
-
-{ japanese: "大きい", english: "big" } 
-
+const wordList = [
+    { japanese: "関数型プログラミングがソフトウェア開発者の間で注目されている。", english: "Functional programming has been gaining popularity among software developers." }, 
+    { japanese: "走る", english: "run" }, 
+    { japanese: "大きい", english: "big" } 
 ]; 
-
  
-
 function generateWordList() { 
-
-const container = document.getElementById("wordContainer"); 
+    const container = document.getElementById("wordContainer"); 
 
  
 
@@ -89,5 +82,4 @@ speechSynthesis.speak(utterance);
  
 
 generateWordList(); 
-
  
